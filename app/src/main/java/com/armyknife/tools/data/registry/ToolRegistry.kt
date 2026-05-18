@@ -26,6 +26,15 @@ object ToolRegistry {
             iconRes = "sensor",
             route = Constants.ROUTE_BUBBLE_LEVEL
         ),
+        ToolItem(
+            id = "sound_meter",
+            title = "Sound Meter",
+            description = "Microphone audio amplitude tracking (dB SPL)",
+            category = ToolCategory.SENSOR,
+            iconRes = "sensor",
+            route = Constants.ROUTE_SOUND_METER,
+            requiredPermissions = listOf("android.permission.RECORD_AUDIO")
+        ),
 
         // Hardware Tools
         ToolItem(
