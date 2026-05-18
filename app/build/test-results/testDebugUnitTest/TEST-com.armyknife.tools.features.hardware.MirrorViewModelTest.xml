@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.armyknife.tools.features.hardware.MirrorViewModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-18T16:47:29" hostname="pram11-server-01" time="0.001">
+  <properties/>
+  <testcase name="camera facing is front by default" classname="com.armyknife.tools.features.hardware.MirrorViewModelTest" time="0.0"/>
+  <testcase name="initial flip horizontal is true for mirror effect" classname="com.armyknife.tools.features.hardware.MirrorViewModelTest" time="0.0"/>
+  <testcase name="toggle flip horizontal changes state" classname="com.armyknife.tools.features.hardware.MirrorViewModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
