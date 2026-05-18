@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.media.ImageConverterViewModelTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-05-18T16:47:29" hostname="pram11-server-01" time="0.011">
+<testsuite name="com.armyknife.tools.features.media.ImageConverterViewModelTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:00:57" hostname="pram11-server-01" time="0.01">
   <properties/>
   <testcase name="compressionRatio returns percentage" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.002"/>
   <testcase name="calculateDimensions maintains aspect ratio when only height set" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
-  <testcase name="estimateFileSize smaller quality yields smaller size" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
+  <testcase name="estimateFileSize smaller quality yields smaller size" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.001"/>
   <testcase name="fromExtension returns PNG for unknown" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="compressionRatio zero original returns 0" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="toggleMaintainAspect flips boolean" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="quality clamps to 0-100 range" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="calculateDimensions maintains aspect ratio when only width set" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="compressionRatio larger output returns negative" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
-  <testcase name="output filename uses new extension" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.005"/>
-  <testcase name="estimateFileSize larger dimensions yield larger size" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
+  <testcase name="output filename uses new extension" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.004"/>
+  <testcase name="estimateFileSize larger dimensions yield larger size" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.001"/>
   <testcase name="resetToDefaults clears all values" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="updateDimensions sets values" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
-  <testcase name="format supports lossless" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.001"/>
+  <testcase name="format supports lossless" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="calculateDimensions ignores aspect ratio when disabled" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="cycleFormat iterates through formats" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
-  <testcase name="estimateFileSize PNG is lossless baseline" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
-  <testcase name="calculateDimensions handles zero original dimensions" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.001"/>
+  <testcase name="estimateFileSize PNG is lossless baseline" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.001"/>
+  <testcase name="calculateDimensions handles zero original dimensions" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="output filename preserves base with dots" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="updateQuality clamps and sets state" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
   <testcase name="buildConfig produces correct data class" classname="com.armyknife.tools.features.media.ImageConverterViewModelTest" time="0.0"/>
