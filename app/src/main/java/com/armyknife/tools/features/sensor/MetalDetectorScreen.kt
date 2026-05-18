@@ -5,7 +5,6 @@ import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.core.animateColorAsState
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.Canvas
@@ -67,7 +66,7 @@ fun MetalDetectorScreen(viewModel: MetalDetectorViewModel = viewModel()) {
         }
     }
 
-    val uiState by viewModel.uiState
+    val uiState = viewModel.uiState
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -129,10 +128,9 @@ fun MetalDetectorScreen(viewModel: MetalDetectorViewModel = viewModel()) {
         // Alert banner
         if (uiState.isDetecting) {
             val alertColor = getAlertColor(uiState.alert)
-            val animatedColor by animateColorAsState(alertColor, label = "alertColor")
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = animatedColor.copy(alpha = 0.15f))
+                colors = CardDefaults.cardColors(containerColor = alertColor.copy(alpha = 0.15f))
             ) {
                 Row(
                     modifier = Modifier.padding(16.dp),
@@ -257,6 +255,7 @@ private fun MetalGauge(deviation: Float, baseline: Float) {
 
     val onSurfaceColor = MaterialTheme.colorScheme.onSurface
     val surfaceColor = MaterialTheme.colorScheme.surfaceVariant
+    val primaryColor = MaterialTheme.colorScheme.primary
 
     val arcSize = Size(
         (radius + arcThickness / 2f) * 2,
@@ -311,7 +310,7 @@ private fun MetalGauge(deviation: Float, baseline: Float) {
         val zeroAngle = startAngle + sweepAngle / 2f
         val zeroRad = Math.toRadians(zeroAngle.toDouble()).toFloat()
         drawLine(
-            color = MaterialTheme.colorScheme.primary,
+            color = primaryColor,
             start = Offset(
                 center + radius * 0.7f * kotlin.math.cos(zeroRad),
                 center + radius * 0.7f * kotlin.math.sin(zeroRad)

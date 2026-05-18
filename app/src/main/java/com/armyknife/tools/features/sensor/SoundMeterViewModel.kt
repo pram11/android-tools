@@ -20,7 +20,7 @@ data class SoundMeterUiState(
     val peakDb: Float = 0f,
     val isRecording: Boolean = false,
     val levelCategory: String = "Silent",
-    val rawAmplitude: Int = 0,
+    val rawAmplitude: Double = 0.0,
     val history: List<Float> = emptyList()
 )
 
@@ -91,11 +91,11 @@ class SoundMeterViewModel : ViewModel() {
                 if (read > 0) {
                     // Compute RMS
                     var sum = 0.0
-                    var maxAbs = 0
+                    var maxAbs = 0.0
                     for (i in 0 until read) {
                         val sample = buffer[i].toDouble()
                         sum += sample * sample
-                        val abs = kotlin.math.abs(buffer[i])
+                        val abs = kotlin.math.abs(buffer[i].toDouble())
                         if (abs > maxAbs) maxAbs = abs
                     }
                     val rms = kotlin.math.sqrt(sum / read)

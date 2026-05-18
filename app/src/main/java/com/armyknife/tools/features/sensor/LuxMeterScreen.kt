@@ -57,7 +57,7 @@ fun LuxMeterScreen(viewModel: LuxMeterViewModel = viewModel()) {
         }
     }
 
-    val uiState by viewModel.uiState
+    val uiState = viewModel.uiState
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -188,8 +188,8 @@ private fun LuxGauge(currentLux: Float, lightLevel: String) {
 
     // Log scale: 0.1 to 50000 lux
     val minLog = Math.log10(0.1).toFloat()
-    val maxLog = Math.log10(50000f).toFloat()
-    val logVal = Math.log10(kotlin.math.max(0.1f, currentLux)).toFloat()
+    val maxLog = Math.log10(50000.0).toFloat()
+    val logVal = Math.log10(kotlin.math.max(0.1f, currentLux).toDouble()).toFloat()
     val normalized = kotlin.math.max(0f, kotlin.math.min(1f, (logVal - minLog) / (maxLog - minLog)))
 
     val sweepAngle = 270f
@@ -251,7 +251,7 @@ private fun LuxGauge(currentLux: Float, lightLevel: String) {
         // Ticks with log labels
         val tickValues = listOf(1f, 10f, 100f, 1000f, 10000f, 50000f)
         tickValues.forEach { tv ->
-            val tvLog = Math.log10(tv).toFloat()
+            val tvLog = Math.log10(tv.toDouble()).toFloat()
             val tickNorm = (tvLog - minLog) / (maxLog - minLog)
             val tickAngle = startAngle + tickNorm * sweepAngle
             val tickRad = Math.toRadians(tickAngle.toDouble()).toFloat()

@@ -51,6 +51,15 @@ object ToolRegistry {
             iconRes = "sensor",
             route = Constants.ROUTE_METAL_DETECTOR
         ),
+        ToolItem(
+            id = "speedometer",
+            title = "Speedometer",
+            description = "GPS speed tracking with multi-unit display",
+            category = ToolCategory.SENSOR,
+            iconRes = "sensor",
+            route = Constants.ROUTE_SPEEDOMETER,
+            requiredPermissions = listOf("android.permission.ACCESS_FINE_LOCATION")
+        ),
 
         // Hardware Tools
         ToolItem(
