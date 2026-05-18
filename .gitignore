@@ -9,4 +9,6 @@
 .cxx
 local.properties
 *.orig
-.kokoro
+.kokoroapp/build
+.gradle
+.idea
