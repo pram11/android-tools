@@ -31,7 +31,7 @@ After every single step or sub-task completion, the responsible Agent must updat
 
 ### Category 2: Hardware Control
 *   [x] Step 3.2.1: QR/Barcode Scanner & Generator (CameraX & local rendering).
-*   [ ] Step 3.2.2: Magnifier (CameraX zoom control integration).
+*   [x] Step 3.2.2: Magnifier (CameraX zoom control integration).
 *   [ ] Step 3.2.3: Flashlight & SOS (CameraManager torch control).
 *   [ ] Step 3.2.4: Mirror (Front camera rendering).
 

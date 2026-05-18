@@ -85,7 +85,8 @@ object ToolRegistry {
             description = "CameraX zoom control for magnification",
             category = ToolCategory.HARDWARE,
             iconRes = "hardware",
-            route = Constants.ROUTE_MAGNIFIER
+            route = Constants.ROUTE_MAGNIFIER,
+            requiredPermissions = listOf("android.permission.CAMERA")
         ),
         ToolItem(
             id = "mirror",
