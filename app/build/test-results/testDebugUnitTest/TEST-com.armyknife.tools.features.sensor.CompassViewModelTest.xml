@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.sensor.CompassViewModelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:30:16" hostname="pram11-server-01" time="0.002">
+<testsuite name="com.armyknife.tools.features.sensor.CompassViewModelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-18T14:11:31" hostname="pram11-server-01" time="0.001">
   <properties/>
   <testcase name="bearing from rotation matrix - facing south returns 180 degrees" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.001"/>
   <testcase name="bearing from rotation matrix - facing north returns 0 degrees" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
   <testcase name="bearing from rotation matrix - facing east returns 90 degrees" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
   <testcase name="state updates with new bearing" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
   <testcase name="direction label maps correctly to cardinal directions" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
-  <testcase name="bearing is always clamped to 0-360 range" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.001"/>
+  <testcase name="bearing is always clamped to 0-360 range" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
   <testcase name="bearing from rotation matrix - facing west returns 270 degrees" classname="com.armyknife.tools.features.sensor.CompassViewModelTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
