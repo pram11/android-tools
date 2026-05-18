@@ -35,6 +35,14 @@ object ToolRegistry {
             route = Constants.ROUTE_SOUND_METER,
             requiredPermissions = listOf("android.permission.RECORD_AUDIO")
         ),
+        ToolItem(
+            id = "lux_meter",
+            title = "Lux Meter",
+            description = "Ambient light sensor (illuminance in lux)",
+            category = ToolCategory.SENSOR,
+            iconRes = "sensor",
+            route = Constants.ROUTE_LUX_METER
+        ),
 
         // Hardware Tools
         ToolItem(
