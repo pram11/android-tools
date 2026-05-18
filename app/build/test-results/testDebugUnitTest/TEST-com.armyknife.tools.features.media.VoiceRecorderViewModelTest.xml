@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:17:54" hostname="pram11-server-01" time="0.007">
+<testsuite name="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:24:04" hostname="pram11-server-01" time="0.006">
   <properties/>
-  <testcase name="cannot start when already recording" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.002"/>
-  <testcase name="cannot resume when idle" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
+  <testcase name="cannot start when already recording" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.001"/>
+  <testcase name="cannot resume when idle" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.001"/>
   <testcase name="estimateFileSize returns positive value" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
-  <testcase name="default duration is zero" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.001"/>
+  <testcase name="default duration is zero" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="tick does not increment when paused" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="startRecording sets state to recording" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="formatDuration shows minutes and seconds" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="formatDuration shows seconds" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
-  <testcase name="updateVolume clamps to 0-100" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
+  <testcase name="updateVolume clamps to 0-100" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.001"/>
   <testcase name="tick increments duration when recording" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="default volume is zero" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
-  <testcase name="formatDuration handles exactly 1 hour" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.001"/>
+  <testcase name="formatDuration handles exactly 1 hour" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="cannot pause when idle" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="pauseRecording from recording sets state to paused" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
   <testcase name="resumeRecording from paused sets state to recording" classname="com.armyknife.tools.features.media.VoiceRecorderViewModelTest" time="0.0"/>
