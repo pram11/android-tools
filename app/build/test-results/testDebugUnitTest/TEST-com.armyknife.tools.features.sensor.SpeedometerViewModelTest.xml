@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:21:20" hostname="pram11-server-01" time="0.005">
+<testsuite name="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:30:16" hostname="pram11-server-01" time="0.004">
   <properties/>
-  <testcase name="switch unit updates selected unit" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.002"/>
+  <testcase name="switch unit updates selected unit" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
   <testcase name="update speed from meters per second" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="display speed respects selected unit" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
   <testcase name="reset clears current and max speed" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
