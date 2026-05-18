@@ -76,7 +76,8 @@ object ToolRegistry {
             description = "Scan and generate QR/barcode using CameraX",
             category = ToolCategory.HARDWARE,
             iconRes = "hardware",
-            route = Constants.ROUTE_QR_SCANNER
+            route = Constants.ROUTE_QR_SCANNER,
+            requiredPermissions = listOf("android.permission.CAMERA")
         ),
         ToolItem(
             id = "magnifier",
