@@ -38,8 +38,8 @@ After every single step or sub-task completion, the responsible Agent must updat
 ### Category 3: Media & Files
 *   [x] Step 3.3.1: APK Extractor (PackageManager integration).
 *   [x] Step 3.3.2: Image Converter & Compressor (Bitmap factory processing).
-*   [>] Step 3.3.3: PDF Utility (PdfDocument rendering engine).
-*   [ ] Step 3.3.4: Voice Recorder (MediaRecorder local storage management).
+*   [x] Step 3.3.3: PDF Utility (PdfDocument rendering engine).
+*   [>] Step 3.3.4: Voice Recorder (MediaRecorder local storage management).
 
 ### Category 4: Data & Utilities
 *   [ ] Step 3.4.1: Unit Converter (Pure function translation layer).
