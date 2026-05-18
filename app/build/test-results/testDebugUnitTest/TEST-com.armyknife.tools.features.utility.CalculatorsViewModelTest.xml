@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.utility.CalculatorsViewModelTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:30:53" hostname="pram11-server-01" time="0.009">
+<testsuite name="com.armyknife.tools.features.utility.CalculatorsViewModelTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:36:44" hostname="pram11-server-01" time="0.008">
   <properties/>
   <testcase name="age in days is positive" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.005"/>
-  <testcase name="default calculator type is BMI" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.001"/>
+  <testcase name="default calculator type is BMI" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="formatValue handles normal number" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="discount clamps price to non-negative" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="age in hours is positive" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
-  <testcase name="BMI obese" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
+  <testcase name="BMI obese" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.001"/>
   <testcase name="discount 0 percent" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
-  <testcase name="resetToDefaults clears all values" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.001"/>
+  <testcase name="resetToDefaults clears all values" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="BMI category for obese" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="cycleCalculator iterates BMI to Age to Discount to BMI" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="BMI normal weight" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
-  <testcase name="BMI category for overweight" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
+  <testcase name="BMI category for overweight" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.001"/>
   <testcase name="discount clamps to 0-100" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="discount 100 percent" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="BMI category for underweight" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
-  <testcase name="age in years" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.002"/>
+  <testcase name="age in years" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.001"/>
   <testcase name="BMI underweight" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="discount 50 percent" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>
   <testcase name="formatValue handles zero" classname="com.armyknife.tools.features.utility.CalculatorsViewModelTest" time="0.0"/>

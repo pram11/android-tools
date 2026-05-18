@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:30:53" hostname="pram11-server-01" time="0.008">
+<testsuite name="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:36:44" hostname="pram11-server-01" time="0.008">
   <properties/>
-  <testcase name="generateRandomInt min greater than max swaps" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.003"/>
-  <testcase name="generateRandomString with length 32" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.001"/>
+  <testcase name="generateRandomInt min greater than max swaps" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.002"/>
+  <testcase name="generateRandomString with length 32" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
   <testcase name="min clamps to reasonable range" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
   <testcase name="default type is number" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
   <testcase name="max clamps to reasonable range" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
   <testcase name="generateRandomString has correct length" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
-  <testcase name="flipCoin returns HEADS or TAILS" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.001"/>
+  <testcase name="flipCoin returns HEADS or TAILS" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
   <testcase name="generateUuid matches pattern" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.001"/>
   <testcase name="rollDice returns 1-6" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.001"/>
   <testcase name="generateRandomString with length 1" classname="com.armyknife.tools.features.utility.RandomGeneratorViewModelTest" time="0.0"/>
