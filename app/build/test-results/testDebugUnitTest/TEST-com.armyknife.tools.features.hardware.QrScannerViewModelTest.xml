@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.hardware.QrScannerViewModelTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:17:12" hostname="pram11-server-01" time="0.066">
+<testsuite name="com.armyknife.tools.features.hardware.QrScannerViewModelTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:21:19" hostname="pram11-server-01" time="0.06">
   <properties/>
-  <testcase name="format label maps UNKNOWN correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.031"/>
+  <testcase name="format label maps UNKNOWN correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.026"/>
   <testcase name="encode qr matrix for valid text produces matrix" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.02"/>
-  <testcase name="format label maps PDF_417 correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.001"/>
+  <testcase name="format label maps PDF_417 correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="encode qr matrix for empty text produces null" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="duplicate scan result is not added" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.011"/>
   <testcase name="initial state - scan mode active and no results" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="switch to scan mode updates uiState" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
-  <testcase name="switch to generate mode updates uiState" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.001"/>
+  <testcase name="switch to generate mode updates uiState" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="add scan result appends to list" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="qr input update sets the text" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="format label maps DATA_MATRIX correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="format label maps QR_CODE correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
-  <testcase name="encode qr matrix for blank whitespace produces null" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.001"/>
+  <testcase name="encode qr matrix for blank whitespace produces null" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="format label maps EAN_13 correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="format label maps UPC_A correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>
   <testcase name="format label maps AZTEC correctly" classname="com.armyknife.tools.features.hardware.QrScannerViewModelTest" time="0.0"/>

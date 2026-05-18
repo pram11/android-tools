@@ -95,7 +95,8 @@ object ToolRegistry {
             description = "Front camera rendering as a digital mirror",
             category = ToolCategory.HARDWARE,
             iconRes = "hardware",
-            route = Constants.ROUTE_MIRROR
+            route = Constants.ROUTE_MIRROR,
+            requiredPermissions = listOf("android.permission.CAMERA")
         ),
 
         // Media Tools
