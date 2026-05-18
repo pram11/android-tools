@@ -43,6 +43,14 @@ object ToolRegistry {
             iconRes = "sensor",
             route = Constants.ROUTE_LUX_METER
         ),
+        ToolItem(
+            id = "metal_detector",
+            title = "Metal Detector",
+            description = "Magnetic field anomaly detection (ferrous metal)",
+            category = ToolCategory.SENSOR,
+            iconRes = "sensor",
+            route = Constants.ROUTE_METAL_DETECTOR
+        ),
 
         // Hardware Tools
         ToolItem(
