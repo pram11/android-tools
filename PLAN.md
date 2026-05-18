@@ -13,11 +13,11 @@ After every single step or sub-task completion, the responsible Agent must updat
 *   [x] Step 1.3: Generate repository structure and initialize the base Android project.
 
 ## Phase 2: Architecture Setup
-*   [ ] Step 2.1: Implement the multi-module build configuration or structured package layout.
-*   [ ] Step 2.2: Define the global data contract (`ToolCategory`, `ToolItem`) and the central Tool Registry.
-*   [ ] Step 2.3: Implement the Material 3 Adaptive Navigation base layout (Bottom Navigation / Navigation Rail).
-*   [ ] Step 2.4: Build the dynamic Dashboard (Home) Grid Screen that automatically populates from the Tool Registry.
-*   [ ] Step 2.5: Implement the Search and Favorites global screens filtering the Registry.
+*   [x] Step 2.1: Implement the multi-module build configuration or structured package layout.
+*   [x] Step 2.2: Define the global data contract (`ToolCategory`, `ToolItem`) and the central Tool Registry.
+*   [x] Step 2.3: Implement the Material 3 Adaptive Navigation base layout (Bottom Navigation / Navigation Rail).
+*   [x] Step 2.4: Build the dynamic Dashboard (Home) Grid Screen that automatically populates from the Tool Registry.
+*   [x] Step 2.5: Implement the Search and Favorites global screens filtering the Registry.
 
 ## Phase 3: Core Feature Modules Implementation
 
