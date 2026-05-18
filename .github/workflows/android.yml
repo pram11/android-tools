@@ -1,24 +1,21 @@
-name: Android CI/CD
+name: Android CI (Debug Build for Device Testing)
 
 on:
   push:
     branches: [ "main", "develop" ]
-    tags:
-      - 'v*' # Triggers the workflow when a tag starting with 'v' is pushed
   pull_request:
     branches: [ "main", "develop" ]
-
-permissions:
-  contents: write # Crucial parameter: grants permission to create releases and upload assets
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+    # 1. 저장소의 소스코드를 체크아웃합니다.
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    # 2. Java 17 환경을 구성하고 빌드 속도 향상을 위해 Gradle 캐시를 활성화합니다.
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
@@ -26,21 +23,18 @@ jobs:
         distribution: 'temurin'
         cache: 'gradle'
 
+    # 3. 리눅스 환경에서 가동되도록 Gradle 래퍼 스크립트에 실행 권한을 부여합니다.
     - name: Grant execute permission for gradlew
       run: chmod +x ./gradlew
 
-    - name: Build Release APK
-      run: ./gradlew assembleRelease
+    # 4. 안드로이드 시스템 내부 기본 디버그 키(debug.keystore)로 자동 서명되는 디버그 APK를 생성합니다.
+    # (이를 통해 실제 기기나 블루스택에서 파싱 에러 없이 즉시 설치 및 실행이 가능합니다.)
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug
 
-    - name: Upload Artifact (Internal GA Storage)
+    # 5. 빌드가 완료된 최종 APK 바이너리를 깃허브 액션 실행 결과창에 아티팩트로 업로드합니다.
+    - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: android-release-apk
-        path: app/build/outputs/apk/release/
-
-    - name: Create GitHub Release and Upload Asset
-      uses: softprops/action-gh-release@v3
-      if: startsWith(github.ref, 'refs/tags/') # Executes this step only if triggered by a Git tag
-      with:
-        files: app/build/outputs/apk/release/*.apk
-        generate_release_notes: true
+        name: android-debug-apk
+        path: app/build/outputs/apk/debug/
