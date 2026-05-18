@@ -50,5 +50,5 @@ After every single step or sub-task completion, the responsible Agent must updat
 
 ## Phase 4: Quality Assurance and Polishing
 *   [x] Step 4.1: Dynamic runtime permission checking and graceful degradation flows.
-*   [>] Step 4.2: UI/UX validation across folding devices, tablets, and standard smartphones.
-*   [ ] Step 4.3: Memory leak profiling and optimization for long-running sensor listeners.
+*   [x] Step 4.2: UI/UX validation across folding devices, tablets, and standard smartphones.
+*   [x] Step 4.3: Memory leak profiling and optimization for long-running sensor listeners.
