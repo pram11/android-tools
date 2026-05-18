@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.utility.MorseCodeViewModelTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:24:04" hostname="pram11-server-01" time="0.003">
+<testsuite name="com.armyknife.tools.features.utility.MorseCodeViewModelTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:30:53" hostname="pram11-server-01" time="0.003">
   <properties/>
   <testcase name="encode lowercase" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.001"/>
   <testcase name="encode letter A" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="encode letter S" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="decode invalid returns original" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
-  <testcase name="encode empty returns empty" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.001"/>
+  <testcase name="encode empty returns empty" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="decode SOS" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
-  <testcase name="encode with numbers" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
+  <testcase name="encode with numbers" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.001"/>
   <testcase name="decode single letter" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="process encodes when text to morse" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="encode SOS" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
@@ -16,8 +16,8 @@
   <testcase name="default mode is text to morse" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="decode Hello" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <testcase name="toggleMode switches direction" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
-  <testcase name="default input is empty" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.001"/>
-  <testcase name="encode Hello" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
+  <testcase name="default input is empty" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
+  <testcase name="encode Hello" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.001"/>
   <testcase name="resetToDefaults clears state" classname="com.armyknife.tools.features.utility.MorseCodeViewModelTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

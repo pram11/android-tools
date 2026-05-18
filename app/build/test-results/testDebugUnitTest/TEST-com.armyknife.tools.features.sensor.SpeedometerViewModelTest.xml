@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:24:04" hostname="pram11-server-01" time="0.003">
+<testsuite name="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-05-18T17:30:53" hostname="pram11-server-01" time="0.003">
   <properties/>
   <testcase name="switch unit updates selected unit" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
   <testcase name="update speed from meters per second" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="display speed respects selected unit" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
-  <testcase name="reset clears current and max speed" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
+  <testcase name="reset clears current and max speed" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
   <testcase name="high speed conversion" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="knots conversion from kmh" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="is moving returns true when speed above threshold" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
@@ -14,9 +14,9 @@
   <testcase name="gps accuracy update" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="unit label returns correct string" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <testcase name="max speed tracks highest value" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
-  <testcase name="zero speed" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
+  <testcase name="zero speed" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
   <testcase name="negative speed is clamped to zero" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
-  <testcase name="is moving returns false when stationary" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.001"/>
+  <testcase name="is moving returns false when stationary" classname="com.armyknife.tools.features.sensor.SpeedometerViewModelTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
