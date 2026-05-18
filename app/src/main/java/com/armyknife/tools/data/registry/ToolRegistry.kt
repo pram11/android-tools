@@ -18,6 +18,14 @@ object ToolRegistry {
             iconRes = "sensor",
             route = Constants.ROUTE_COMPASS
         ),
+        ToolItem(
+            id = "bubble_level",
+            title = "Bubble Level",
+            description = "Accelerometer-based digital spirit level",
+            category = ToolCategory.SENSOR,
+            iconRes = "sensor",
+            route = Constants.ROUTE_BUBBLE_LEVEL
+        ),
 
         // Hardware Tools
         ToolItem(
