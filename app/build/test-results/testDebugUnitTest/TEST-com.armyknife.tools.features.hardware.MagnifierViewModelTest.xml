@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.armyknife.tools.features.hardware.MagnifierViewModelTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:05:20" hostname="pram11-server-01" time="0.01">
+<testsuite name="com.armyknife.tools.features.hardware.MagnifierViewModelTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:17:12" hostname="pram11-server-01" time="0.009">
   <properties/>
-  <testcase name="max zoom ratio is accessible" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.002"/>
+  <testcase name="max zoom ratio is accessible" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
   <testcase name="reset zoom returns to one" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.001"/>
   <testcase name="set zoom ratio clamps to max ten" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.001"/>
   <testcase name="set zoom ratio clamps to min one" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
   <testcase name="flip camera toggles facing" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
   <testcase name="zoom level string shows 1x at min" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.003"/>
-  <testcase name="zoom level string shows correct multiplier" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
+  <testcase name="zoom level string shows correct multiplier" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.001"/>
   <testcase name="initial zoom ratio is one" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
   <testcase name="zoom level string shows whole number at integer" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>
   <testcase name="set zoom ratio clamps to current max zoom" classname="com.armyknife.tools.features.hardware.MagnifierViewModelTest" time="0.0"/>

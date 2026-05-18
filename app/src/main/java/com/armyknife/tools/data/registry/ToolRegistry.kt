@@ -68,7 +68,8 @@ object ToolRegistry {
             description = "Camera torch control with SOS signaling",
             category = ToolCategory.HARDWARE,
             iconRes = "hardware",
-            route = Constants.ROUTE_FLASHLIGHT
+            route = Constants.ROUTE_FLASHLIGHT,
+            requiredPermissions = listOf("android.permission.CAMERA")
         ),
         ToolItem(
             id = "qr_scanner",

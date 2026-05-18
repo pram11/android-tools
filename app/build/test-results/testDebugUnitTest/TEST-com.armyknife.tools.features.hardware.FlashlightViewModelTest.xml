@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.armyknife.tools.features.hardware.FlashlightViewModelTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-05-18T09:17:12" hostname="pram11-server-01" time="0.006">
+  <properties/>
+  <testcase name="sos pattern has short dots first" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.002"/>
+  <testcase name="disable sos mode clears flag" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="initial torch state is off" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="disable sos leaves torch state unchanged when on" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="set flash state updates torch on value" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="camera id is set and accessible" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="sos pattern sequence is correct" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="sos pattern has short dots last" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="toggle torch turns off when on" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="has torch returns false when camera id null" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="sos pattern has long dashes middle" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="toggle torch turns on when off" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="sos mode starts disabled" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.001"/>
+  <testcase name="initial sos mode is off" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="enable sos turns torch off" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.0"/>
+  <testcase name="enable sos mode sets flag" classname="com.armyknife.tools.features.hardware.FlashlightViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
