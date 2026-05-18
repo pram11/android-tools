@@ -44,8 +44,8 @@ After every single step or sub-task completion, the responsible Agent must updat
 ### Category 4: Data & Utilities
 *   [x] Step 3.4.1: Unit Converter (Pure function translation layer).
 *   [x] Step 3.4.2: Financial & Lifestyle Calculators (BMI, Age, Discount logic).
-*   [>] Step 3.4.3: Text Crypto Tool (Local Base64, Hex, AES implementations).
-*   [ ] Step 3.4.4: Morse Code Converter (Text parsing mapped to flash/vibration outputs).
+*   [x] Step 3.4.3: Text Crypto Tool (Local Base64, Hex, AES implementations).
+*   [>] Step 3.4.4: Morse Code Converter (Text parsing mapped to flash/vibration outputs).
 *   [ ] Step 3.4.5: Random Generator (Kotlin Random utilities).
 
 ## Phase 4: Quality Assurance and Polishing
