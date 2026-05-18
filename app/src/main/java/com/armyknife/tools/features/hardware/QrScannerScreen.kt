@@ -1,0 +1,8 @@
+package com.armyknife.tools.features.hardware
+
+import androidx.compose.runtime.Composable
+
+@Composable
+fun QrScannerScreen() {
+    // TODO: Implement QrScanner
+}
