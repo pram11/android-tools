@@ -25,8 +25,7 @@
         android:label="Armyknife Tools"
         android:roundIcon="@mipmap/ic_launcher"
         android:theme="@style/Theme.ArmyknifeTools"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.ArmyknifeTools">
+        android:supportsRtl="true">
 
         <activity
             android:name=".MainActivity"

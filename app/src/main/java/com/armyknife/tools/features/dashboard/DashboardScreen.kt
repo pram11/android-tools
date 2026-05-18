@@ -31,16 +31,14 @@ fun DashboardScreen(
         modifier = Modifier.fillMaxSize()
     ) {
         Categories.forEach { category ->
-            stickyHeader(key = "header-${category.id}") {
-                Surface(tonalElevation = 0.dp) {
-                    Text(
-                        text = category.title,
-                        style = MaterialTheme.typography.titleMedium,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 4.dp, vertical = 8.dp)
-                    )
-                }
+            item(key = "header-${category.id}") {
+                Text(
+                    text = category.title,
+                    style = MaterialTheme.typography.titleMedium,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 4.dp, vertical = 8.dp)
+                )
             }
             val tools = ToolRegistry.findByCategory(category)
             if (tools.isNotEmpty()) {
